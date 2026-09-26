@@ -10,7 +10,7 @@ import MerchPage from './pages/MerchPage';
 
 function App() {
     return (
-        <Router>
+        <Router basename="/Meshcore">
             <ScrollToTop />
             <Routes>
                 <Route path="/" element={<HomePage />} />
